@@ -1,30 +1,34 @@
 {
-    "appKeys": {
-        "KEY_LOCAL_DUALZONE_OFFSET": 0,
-        "KEY_LOCAL_TIMEZONE_OFFSET": 0
-    },
-    "capabilities": [
-        "configurable"
-    ],
-    "companyName": "utopianmonk",
-    "longName": "DualTime",
-    "projectType": "native",
-    "resources": {
-        "media": [
-            {
-                "file": "images/dt.png",
-                "menuIcon": true,
-                "name": "IMAGE_MENU_ICON",
-                "type": "png"
-            }
-        ]
-    },
-    "sdkVersion": "2",
-    "shortName": "DualTime",
-    "uuid": "2c876a93-96ce-4d95-945a-d59a548189f6",
-    "versionCode": 1,
-    "versionLabel": "1.0",
-    "watchapp": {
-        "watchface": true
-    }
+  "appKeys": {
+    "KEY_LOCAL_DUALZONE_OFFSET": 0,
+    "KEY_LOCAL_TIMEZONE_OFFSET": 0
+  },
+  "capabilities": [
+    "configurable"
+  ],
+  "companyName": "utopianmonk",
+  "longName": "DualTime",
+  "projectType": "native",
+  "resources": {
+    "media": [
+      {
+        "file": "images/dt.png",
+        "menuIcon": true,
+        "name": "IMAGE_MENU_ICON",
+        "type": "png"
+      }
+    ]
+  },
+  "sdkVersion": "3",
+  "shortName": "DualTime",
+  "uuid": "2c876a93-96ce-4d95-945a-d59a548189f6",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ]
 }
